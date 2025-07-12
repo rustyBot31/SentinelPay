@@ -12,6 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, roc_auc_score, confusion_matrix
 import joblib
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -313,6 +314,7 @@ class AdvancedFraudPredictor:
 # ================================
 
 app = Flask(__name__)
+CORS(app)
 predictor = AdvancedFraudPredictor()
 
 @app.route('/predict-return-risk', methods=['POST'])

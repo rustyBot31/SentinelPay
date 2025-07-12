@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ConnectWallet from './components/ConnectWallet';
 import ReceiptInput from './components/ReceiptInput';
 import HashResult from './components/HashResult';
+import MLForm from './components/MLForm';
 
 function App() {
   const [walletConnected, setWalletConnected] = useState(false);
@@ -14,6 +15,7 @@ function App() {
         <ConnectWallet setWalletConnected={setWalletConnected} />
       ) : (
         <>
+          <MLForm/>
           <ReceiptInput setResult={setResult} />
           <HashResult result={result} />
         </>
