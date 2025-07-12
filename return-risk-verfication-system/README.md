@@ -59,13 +59,12 @@ curl http://localhost:5000/health
 ## Demo Scenarios
 
 The system will flag returns as high risk when:
-- Expensive items (>$500) returned quickly (<7 days)
-- Customers with multiple return history (>2 returns)
+- Expensive items returned quickly 
+- Customers with multiple return history 
 - Geographic mismatches between purchase and return locations
 
 ## Model Details
 
-- **Algorithm**: Logistic Regression
+- **Algorithm**: Random Forest
 - **Features**: Price, days since purchase, return history, geographic mismatch
-- **Training Data**: 5,000 synthetic samples with realistic fraud patterns
 - **Performance**: ~80% accuracy on test data
