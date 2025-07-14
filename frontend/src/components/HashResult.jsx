@@ -5,7 +5,7 @@ export default function HashResult({ result }) {
 
   return (
     <div>
-      <p><strong>Hash:</strong> {result.hash}</p>
+      <p style={{color:'#ffc220'}}><strong>Hash:</strong> {result.hash}</p>
       <p style={{ color: result.isValid ? 'green' : 'red' }}>
         {result.isValid ? '✅ Receipt is valid' : '❌ Receipt is invalid'}
       </p>

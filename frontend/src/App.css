@@ -41,7 +41,6 @@ html, body, #root {
   background-color: #001e60;
   color: #0053e2;
   width: 80%;
-  max-width: 800px;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);

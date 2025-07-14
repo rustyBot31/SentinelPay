@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="app-container" style={{ minHeight: "100vh", backgroundColor: 'white' }}>
       <img
-        src="https://img.favpng.com/16/25/2/logo-vector-graphics-brand-walmart-portable-network-graphics-png-favpng-RNmwyt5haE5GzqfvtZfVWaRk3.jpg"
+        src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/walmart-icon.png"
         alt="Walmart Logo"
         className="walmart-logo"
       />
