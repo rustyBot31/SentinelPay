@@ -16,3 +16,10 @@ SentinelPay is a full-stack application that enhances retail trust and fraud pre
 
 ## 💡 Use Case
 Improves retail transparency and security by detecting suspicious return behavior and ensuring receipts are authentic and unaltered.
+
+## 🧰 Tech Stack
+### 🔗 Blockchain
+- Solidity – Smart contract development
+- Hardhat – Ethereum development environment and testing
+- Ethers.js – Wallet interaction and contract calls
+
