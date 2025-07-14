@@ -4,8 +4,8 @@ SentinelPay is a full-stack application that enhances retail trust and fraud pre
 
 ### 🧠 Project concept by team - The Sentinels for Walmart Sparkathon 2025, aimed at transforming receipt validation and return risk analysis through innovative tech. <br>
 ### Authors - 
-    - Swastik Bose
-    - Yash Agarwal
+    - Swastik Bose (Blockchain, Web Development)
+    - Yash Agarwal (Machine Learning)
 
 ## 🔧 Features
 - Tamper-proof receipt storage on the blockchain via Solidity smart contracts.
