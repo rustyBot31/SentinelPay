@@ -13,3 +13,6 @@ SentinelPay is a full-stack application that enhances retail trust and fraud pre
 - User-friendly React frontend 
 - Dual-panel interface for blockchain hash generation & AI analysis.
 - Seamless wallet integration for transaction signing and verification.
+
+## 💡 Use Case
+Improves retail transparency and security by detecting suspicious return behavior and ensuring receipts are authentic and unaltered.
