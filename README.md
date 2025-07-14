@@ -29,3 +29,8 @@ Improves retail transparency and security by detecting suspicious return behavio
 - Flask / FastAPI – Serving prediction endpoint ```(/predict-return-risk)```
 - Scikit-learn / XGBoost – Return risk classification model
 
+### 🌐 Frontend
+- React + Vite – Fast and lightweight frontend framework
+- Tailwind CSS – Styling with a Walmart-inspired theme
+- MetaMask / WalletConnect – Ethereum wallet integration
+
