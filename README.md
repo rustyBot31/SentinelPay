@@ -18,8 +18,14 @@ SentinelPay is a full-stack application that enhances retail trust and fraud pre
 Improves retail transparency and security by detecting suspicious return behavior and ensuring receipts are authentic and unaltered.
 
 ## 🧰 Tech Stack
+
 ### 🔗 Blockchain
 - Solidity – Smart contract development
 - Hardhat – Ethereum development environment and testing
 - Ethers.js – Wallet interaction and contract calls
+
+### 🧠 Machine Learning
+- Python – Backend language for ML model
+- Flask / FastAPI – Serving prediction endpoint ```(/predict-return-risk)```
+- Scikit-learn / XGBoost – Return risk classification model
 
